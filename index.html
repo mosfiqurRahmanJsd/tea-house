@@ -39,18 +39,18 @@
 
 <body class="font-manrope">
     <!-- header section -->
-    <header class="w-9/12 mx-auto flex gap-5 justify-between items-center mb-36 pt-14">
-        <div class="w-1/2">
+    <header class="md:w-9/12 max-sm:w-11/12 mx-auto md:flex gap-5 justify-between items-center mb-36 max-sm:mb-7 pt-14">
+        <div class="md:w-1/2 max-sm:text-center">
             <h1 class="text-7xl font-extrabold leading-24 mb-7 text-primary">It's good tea time at The Tea
                 House</h1>
             <p class="text-secondary mb-7 text-xl font-medium">Tea and Botanical Solutions Supplier Give Optimum
                 Satisfaction To Your Taste Buds.</p>
             <button
-                class=" text-xl text-light font-semibold rounded-xl bg-gradient-to-r from-[#FF7B32] via-[#FF4A1E] to-[#FF0803] flex gap-2.5 items-center py-5 px-5">Explore
+                class="max-sm:mx-auto max-sm:mb-10 text-xl text-light font-semibold rounded-xl bg-gradient-to-r from-[#FF7B32] via-[#FF4A1E] to-[#FF0803] flex gap-2.5 items-center py-5 px-5">Explore
                 More <img src="./images/arrow.png" alt=""></button>
         </div>
         <div class="relative">
-            <img class="w-full" src="./images/banner.png" alt="">
+            <img class="w-full max-sm:mx-auto" src="./images/banner.png" alt="">
             <div class="flex items-center gap-2.5 w-3xs h-24 bg-white rounded-xl shadow-xl absolute bottom-8 left-20">
                 <i class="fa-solid fa-star text-2xl text-amber-400"></i>
                 <div>
@@ -64,15 +64,15 @@
     <main>
 
         <!-- Our Featured Products -->
-        <section class="w-9/12 mx-auto pb-32">
-            <div class="w-3/4 mx-auto text-center mb-12">
+        <section class="md:w-9/12 max-sm:w-11/12  mx-auto pb-32 max-sm:pb-7">
+            <div class="md:w-3/4 mx-auto text-center mb-12">
                 <h2 class="text-primary text-5xl font-bold mb-9">Our Featured Products</h2>
                 <p class="text-secondary text-base leading-7">There are many variations of passages of Lorem Ipsum
                     available, but the majority have suffered
                     alteration in some form, by injected humour, or randomised words which don't look even slightly
                     believable. </p>
             </div>
-            <div class="flex gap-6">
+            <div class="flex gap-6 max-sm:flex-col">
                 <div class="p-8 bg-linear-180 from-[#f4f4f4] to-[#f4f4f400] text-center rounded-xl">
                     <img class="mx-auto" src="./images/tea-1.png" alt="">
                     <h4 class="text-primary mt-7 mb-2.5 text-2xl font-extrabold">Milk Tea</h4>
@@ -99,29 +99,31 @@
 
 
         <!-- Green tea section -->
-        <section class="w-9/12 mx-auto flex gap-12 pb-32">
-            <div class="grid gap-7 grid-rows-3 grid-cols-2 w-2/4">
+        <section class="md:w-9/12 max-sm:w-11/12 mx-auto flex max-sm:flex-col gap-12 pb-32 max-sm:pb-7">
+            <div class="grid gap-7 grid-rows-3 grid-cols-2 md:w-2/4 max-sm:w-full max-sm:grid-cols-1">
                 <div class="bg-linear-270 from-[#FFE6E5] to-[#FFF1EA] grid-rows-1 rounded-xl"></div>
                 <div
-                    class="bg-linear-270 from-[#FCF6E9] to-[#FCF6E9] row-span-2 rounded-xl flex items-center justify-center">
+                    class="bg-linear-270 from-[#FCF6E9] max-sm:py-6 max-sm:min-h-36 to-[#FCF6E9] row-span-2 rounded-xl flex items-center justify-center">
                     <img src="./images/fresh-1.png" alt="">
                 </div>
-                <div class="bg-[#5776391a] flex items-center justify-center row-span-2 rounded-xl"><img
+                <div class="bg-[#5776391a] flex items-center justify-center row-span-2 rounded-xl max-sm:py-6"><img
                         src="./images/fresh-2.png" alt=""></div>
-                <div class="bg-linear-90 from-[#E4E4E4] to-[#FEFEFE]  rounded-xl"></div>
+                <div class="bg-linear-90 from-[#E4E4E4] to-[#FEFEFE] max-sm:min-h-36  row-span-1 rounded-xl">
+
+                </div>
             </div>
-            <div class="w-1/2">
+            <div class="md:w-1/2 max-sm:w-full max-sm:text-center">
                 <h2 class="text-primary text-5xl font-bold mb-5 leading-20">Great Tea, Freshly Presented</h2>
                 <p class="text-secondary text-base leading-7 mb-5">The meaning of gong cha is chanese is to provide the
                     best tea to emperor from all possessions . It represents the highest quality and self expectation.
                     Establishing in 2006, Gong cha had been deeply appreciated by its custoers because of good words of
                     mouth and unique customized service orginated from Taiwan.</p>
-                <div class="mb-5 pr-32">
+                <div class="mb-5 pr-32 max-sm:pr-0">
                     <h5 class="text-primary text-xl font-semibold mb-2.5">Unique Taste</h5>
                     <p class="text-secondary text-base font-medium leading-7 mb-5">A Unique and different style from
                         other teapots gives a luxurious and minimalist impression</p>
                 </div>
-                <div class="pr-32">
+                <div class="pr-32 max-sm:pr-0">
                     <h5 class="text-primary text-xl font-semibold mb-2.5">Premium Quality</h5>
                     <p class="text-secondary text-base font-medium leading-7 mb-5">Premium Quality that makes tea more
                         elegant and more durable when you use it.</p>
@@ -131,15 +133,15 @@
 
         <!-- super clint section -->
         <section
-            class="w-9/12 mx-auto -bg-linear-270 from-[#ff0000] to-[#ff8938] flex items-center justify-between gap-14 px-16 py-20 rounded-xl mb-32">
-            <div class="w-2/5">
+            class="md:w-9/12 max-sm:w-11/12 mx-auto -bg-linear-270 from-[#ff0000] to-[#ff8938] flex max-sm:flex-col items-center justify-between gap-14 px-16 py-20 rounded-xl mb-32 max-sm:mb-7">
+            <div class="w-2/5 max-sm:w-full max-sm:text-center">
                 <h2 class="text-[#f4f4f4] text-5xl leading-20 mb-5 font-bold">Meet Our Super Clients</h2>
                 <p class="text-base leading-7 text-[#f4f4f4] mb-7">There are many variations of passages of Lorem Ipsum
                     available, but the majority have suffered alteration in some form, by injected humour, or randomised
                     words which don't look even slightly believable. </p>
                 <button class="text-[#FF451C] bg-white px-7 py-3.5 text-xl font-semibold rounded-xl">Show All</button>
             </div>
-            <div class="w-3/6 relative">
+            <div class="md:w-3/6 relative max-sm:w-full">
                 <div class="bg-white rounded-xl p-10 relative w-4/5 mb-14 ml-26 opacity-25">
                     <img class="absolute -top-5 -left-5 border-4 border-white rounded-full" src="./images/client.png"
                         alt="">
@@ -171,15 +173,15 @@
         </section>
 
         <!-- news and event section -->
-        <section class="w-9/12 mx-auto mb-32">
-            <div class="w-3/4 mx-auto text-center mb-12">
+        <section class="md:w-9/12 mx-auto mb-32 max-sm:w-11/12 max-sm:mb-7">
+            <div class="w-3/4 mx-auto text-center mb-12 max-sm:w-full">
                 <h2 class="text-primary text-5xl font-bold mb-9">News & Events</h2>
                 <p class="text-secondary text-base leading-7">There are many variations of passages of Lorem Ipsum
                     available, but the majority have suffered
                     alteration in some form, by injected humour, or randomised words which don't look even slightly
                     believable. </p>
             </div>
-            <div class="flex justify-between gap-6">
+            <div class="flex justify-between gap-6 max-sm:flex-col">
                 <div class="p-5 border-[1px] rounded-xl border-[#d2d2d2]">
                     <img class="mb-5 w-full" src="./images/news-1.png" alt="">
                     <p class="text-[#777777] text-base mb-2.5">Feb 05, 2027</p>
@@ -208,20 +210,20 @@
             </div>
         </section>
     </main>
-    <footer class="bg-linear-to-r from-[#ff00001a] to-[#ff89381a] pt-36 pb-9">
+    <footer class="bg-linear-to-r from-[#ff00001a] to-[#ff89381a] pt-36 pb-9 max-sm:pt-7">
         <section class="w-9/12 mx-auto">
-            <div class="flex items-center justify-between pb-12">
+            <div class="flex items-center justify-between pb-12 max-sm:gap-6">
                 <div>
                     <img src="./images/cup.png" alt="">
                 </div>
                 <div class="flex items-center gap-10">
-                    <p class="text-primary text-xl ">Ready to get strated?</p>
+                    <p class="text-primary text-xl">Ready to get strated?</p>
                     <button
                         class=" text-xl text-light font-semibold rounded-xl bg-gradient-to-r from-[#FF7B32] via-[#FF4A1E] to-[#FF0803] flex gap-2.5 items-center py-5 px-5">Explore
                         More</button>
                 </div>
             </div>
-            <div class="pt-12 flex justify-between">
+            <div class="pt-12 flex justify-between max-sm:flex-wrap">
                 <div>
                     <p class="text-xl text-primary font-semibold mb-5">Quick Links</p>
                     <ul>
@@ -247,14 +249,16 @@
                         <li class="py-2"><a href="#">Contact Us</a></li>
                     </ul>
                 </div>
-                <div>
+                <div class="max-sm:pt-7 max-sm:mx-auto">
                     <p class="text-xl text-primary font-semibold mb-5">Subscribe to our newsletter</p>
-                    <div>
-                        <input class="border-b-2 border-gray-600 py-5" type="email" name="" id="" placeholder="Email address">
+                    <div class="flex gap-5 max-sm:items-center items-center">
+                        <input class="border-b-2 border-gray-600 py-5" type="email" name="" id=""
+                            placeholder="Email address">
                         <button
-                            class=" text-xl text-light font-semibold rounded-full bg-gradient-to-r from-[#FF7B32] via-[#FF4A1E] to-[#FF0803] items-center p-2"><i class="fa-solid fa-angle-right"></i></button>
+                            class=" text-xl text-light font-semibold rounded-full bg-gradient-to-r from-[#FF7B32] via-[#FF4A1E] to-[#FF0803] items-center p-2"><i
+                                class="fa-solid fa-angle-right"></i></button>
                     </div>
-                    <ul class="flex gap-3 mt-5">
+                    <ul class="flex gap-3 mt-5 max-sm:justify-center">
                         <li><a class="text-2xl" href="#"><i class="fa-brands fa-facebook"></i></a></li>
                         <li><a class="text-2xl" href="#"><i class="fa-brands fa-twitter"></i></a></li>
                         <li><a class="text-2xl" href="#"><i class="fa-brands fa-twitter"></i></a></li>
